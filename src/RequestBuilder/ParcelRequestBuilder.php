@@ -185,6 +185,7 @@ class ParcelRequestBuilder extends AbstractRequestBuilder
 		$e->addChild('delivery_fail_action', $template->getDeliveryFailAction());
 		$e->addChild('days_until_return', $template->getDaysUntilReturn());
 		$e->addChild('dp_type', 'shipment');
+		$e->addChild('dp_return_to', 'sender');
 
 	}
 
